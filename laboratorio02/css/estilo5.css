@@ -1,0 +1,17 @@
+/* Selector de indentificador, permite generar un estilo el cual solo se aplicara a una etiqueta, motivo por el cual se crea varios identificadores, para poder identifar en html se agrega el atributo id="nombre_identificador" y en la hoja de estilo se agrega #nombre_identificador */
+#cuerpo{
+    background-color: crimson;
+}
+#titulo{
+    color: black;
+    background-color: white;
+}
+#subtitulo{
+    color: yellow;
+
+font-style: italic;
+}
+#parrafo{
+    color: aqua;
+    font-weight: bolder;
+}

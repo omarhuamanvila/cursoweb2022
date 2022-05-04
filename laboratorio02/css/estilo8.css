@@ -1,0 +1,38 @@
+.contenedor{
+    width:1280px;
+    height:800px ;
+    background-color: #1eaaf1;
+}
+header{
+    width:1280px;
+    height:200px ;
+    background-color: #0c5f05;
+}
+nav{
+    width:1280px;
+    height:50px ;
+    background-color: #e9e50e;
+}
+main{
+    width:980px;
+    height:500px ;
+    background-color: #d31515;
+}
+.Anuncio1{
+    width:300px;
+    height:250px ;
+    background-color: #fd9727;
+    margin-left: 980px;
+    margin-top: -500px;
+}
+.Anuncio2{
+    width:300px;
+    height:250px ;
+    background-color: #666;
+    margin-left: 980px;
+}
+footer{
+    width:1280px;
+    height:53px ;
+    background-color: #9a2fae;
+}
