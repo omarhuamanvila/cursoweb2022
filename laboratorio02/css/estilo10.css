@@ -1,0 +1,87 @@
+body{
+    background-color: green;
+}
+.contenedor{
+    margin: auto;
+    background-color: white;
+}
+.parrafoimagen{
+    background-image: url("/img/foto1.jpg");
+}
+.parrafotransparencia{
+    background-color: black;
+    opacity: 70%;
+    color: white;
+}
+.parrafoimgnorep{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+}
+.parrafoimgsiz{
+    background-image: url("/img/html.png");
+    background-size: 30px;
+}
+.parrafoimgver{
+    background-image: url("/img/html.png");
+    background-repeat: repeat-x;
+    background-size: 30px;
+}
+.parrafoimghor{
+    background-image: url("/img/html.png");
+    background-repeat: repeat-y;
+    background-size: 30px;
+}
+.parrafoimgcen{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center;
+}
+.parrafoimgder{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: right;
+}
+.parrafoimgizq{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left;
+}
+.parrafoimgsup{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top;
+}
+.parrafoimginfe{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom;
+}
+.parrafoimgsupder{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top right;
+}
+.parrafoimgsupizq{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: top left;
+}
+.parrafoimginfeder{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom right;
+}
+.parrafoimginfeizq{
+    background-image: url("/img/html.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: bottom left;
+}

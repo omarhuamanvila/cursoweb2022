@@ -1,6 +1,48 @@
-.contenedor{
-    width:1280px;
-    height:800px ;
-    background-color: #1eaaf1;
-    margin: auto;
+.contenedor{ 
+    width: 1280px;
+    height: 800px;
+    background-color: aqua;
+    margin:auto;
+}
+header{
+    width: 1280px;
+    height: 210px;
+    background-color: rgb(255, 0, 0);
+}
+nav{ 
+    width: 250px;
+    height: 540px;
+    background-color: rgb(38, 255, 9);
+}
+main{ 
+    width: 750px;
+    height: 540px;
+    background-color: rgb(255, 115, 0);
+    margin-left: 250px;
+    margin-top: -540px;
+}
+.anuncio1{ 
+    width:280px;
+    height:180px;
+    background-color: rgb(155, 6, 255);
+    margin-left: 1000px;
+    margin-top: -540px;
+}
+.anuncio2{ 
+    width:280px;
+    height:180px;
+    background-color: rgb(69, 68, 73);
+    margin-left: 1000px;
+}
+.anuncio3{ 
+    width:280px;
+    height:180px;
+    background-color: rgb(81, 47, 231);
+    margin-left: 1000px;
+
+}
+footer{ 
+    width: 1280px;
+    height: 50px;
+    background-color: rgb(251, 255, 0);
 }
