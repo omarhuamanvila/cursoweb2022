@@ -1,0 +1,73 @@
+body{
+    background-color: bisque;
+}
+.contenedor{
+    background-color: white;
+    margin: auto;
+}
+
+/* llamamos a las letras descargadas de Google */
+.fuente1{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* agregando estilos el parrafo */
+.fuente3{
+    font-style: italic;
+}
+.fuente4{
+    font-style: oblique;
+}
+.fuente5{
+    font-style: normal;
+}
+.fuente6{
+    font-style: bold;
+}
+.fuente7{
+    font-style: bolder;
+}
+.fuente8{
+    font-style: small;
+}
+.fuente9{
+    font-variant: small-caps;
+}
+.fuente10{
+    font-size: 25px;
+}
+.fuente11{
+    font-variant: normal;
+}
+
+/* utilizamos las fuentes descargadas */
+@font-face {
+    font-family: "krateeSonz";
+    src: url("/fonts/KrateeSonz/Smooch-regular.ttf");
+}
+@font-face {
+    font-family: "Userstial";
+    src: url("/fonts/Userstial-Regular.tff");
+}
+@font-face {
+    font-family: "Superman";
+    src: url("/fonts/Superman.ttf");
+}
+@font-face {
+    font-family: "transformer";
+    src: url("/fonts/TransformersMovie.ttf");
+}
+
+/* utilizando las fuentes de internet */
+.fuente12{
+    font-family: "krateeSonz";
+}
+.fuente13{
+    font-family: "Userstial";
+}
+.fuente14{
+    font-family: "superman";
+}
+.fuente15{
+    font-family: "transformer";
+}
