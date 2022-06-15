@@ -28,7 +28,151 @@
         //realizando operaciones
         sum=n1+n2;
         //mostrando los resultados
-        document.write("La suma es: "+sum);
+        document.write("La suma es: "+sum+"<br>");
+        document.write("<br>")
+
+        //¿cuantas variables necesito?
+        //5
+        //¿que tipo de datos necesito?
+        //real
+        //¿como se llamaria las variables?
+        //n1,n2,n3,n4,prom
+        //¿que valores voy a leer?
+        //n1,n2,n3,n4
+        //¿cual seria la operaciones?
+        //prom=(n1+n2+n3+n4)/4
+
+        //definiendo variables
+        var n1=0,n2=0,n3=0,n4=0,prom=0;
+        //capturando valores
+        n1=parseFloat(prompt("Ingrese el numero 1:"));
+        n2=parseFloat(prompt("Ingrese el numero 2:"));
+        n3=parseFloat(prompt("Ingrese el numero 3:"));
+        n4=parseFloat(prompt("Ingrese el numero 4:"));
+        //realizando operaciones
+        prom=(n1+n2+n3+n4)/4;
+        //mostrando resultados
+        document.write("El promedio es: "+prom+"<br>")
+        document.write("<hr>")
+
+        //¿cuantas variables necesito?
+        //1
+        //¿que tipo de datos necesito?
+        //texto
+        //¿como se llamaria las variables?
+        //nom
+        //¿que valores voy a leer?
+        //nom
+        //¿cual seria la operaciones?
+        //
+
+        //definiendo variables
+        var nom="";
+        //capturando valores
+        nom=prompt("Ingrese tu nombre:");
+        //mostrando resultados
+        document.write("Hola como estas "+nom+"<br>");
+        document.write("<hr>")
+
+        //¿cuantas variables necesito?
+        //4
+        //¿que tipo de datos necesito?
+        //real
+        //¿como se llamaria las variables?
+        //sb,bon,des,sf
+        //¿que valores voy a leer?
+        //sb
+        //¿cual seria la operaciones?
+        //bon=sb*0.07;
+        //des=sb*0.04;
+        //sf=sb+bon-des;
+
+        //declarando variables
+        var sb=0, bon=0, des=0, sf=0;
+        //capturando valores
+        sb=parseFloat(prompt("Ingrese el sueldo basico:"));
+        //realizando operaciones
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+        //mostrando resultados
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+        document.write("<hr>");
+
+        //¿cuantas variables necesito?
+        //5
+        //¿que tipo de datos necesito?
+        //real
+        //¿como se llamaria las variables?
+        //can,pre,sbt,igv,tot
+        //¿que valores voy a leer?
+        //pre,can
+        //¿cual seria la operaciones?
+        //sbt=pre*can;
+        //igv=sbt*0.18;
+        //tot=sbt+igv;
+
+        //declarando variables
+        var can=0, pre=0, sbt=0, igv=0, tot=0;
+        //capturando valores
+        can=parseFloat(prompt("Ingrese la cantidad"));
+        pre=parseFloat(prompt("Ingrese el precio"));
+        //realizando operaciones
+        sbt=pre*can
+        igv=sbt*0.18;
+        tot=sbt+igv;
+        //mostrando resultados
+        document.write("El subtotal es "+sbt+"<br>");
+        document.write("El igv es "+igv+"<br>");
+        document.write("El total es "+tot+"<br>");
+        document.write("<hr>");
+
+
+        //¿cuantas variables necesito?
+        //6
+        //¿que tipo de datos necesito?
+        //real
+        //¿como se llamaria las variables?
+        //nh, ch, sb, bon, des, sf
+        //¿que valores voy a leer?
+        //nh, ch
+        //¿cual seria la operaciones?
+        //sb=nhch;
+        //bon=sb*0.07;
+        //sf=sb+bon-des
+
+        //definiendo variables
+        var nh=0, ch=0, sb=0, bon=0, des=0, sf=0;
+        //capturando valores
+        nh=parseFloat(prompt("Ingrese el numero de horas"));
+        ch=parseFloat(prompt("Ingrese el costo por hora"));
+        //realizando operaciones
+        sb=nh*ch
+        bon=sb*0.07;
+        des=sb*0.04;
+        sf=sb+bon-des;
+        //mostrando resultados
+        document.write("El sueldo basico es: "+sb+"<br>");
+        document.write("La bonificacion es: "+bon+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El sueldo final es: "+sf+"<br>");
+        document.write("<hr>");
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </script>
 </body>

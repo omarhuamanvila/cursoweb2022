@@ -4,75 +4,151 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascrip - Pagina 1</title>
+    <title>Javascript - Pagina 1</title>
+    <!-- cuando queremos agregar Javascript a nuestras paginas wed podemos utilizar la etiqueta <script></script> la cual esta etiqueta se tiene que agregar dentro del <head></head> -->
 
-<script>
-alert("Bienvenidos al curso de javascript")
-alert("lunes");
-alert("martes");
-alert("miercoles");
-alert("jueves");
-alert("viernes");
-alert("sabado");
-alert("domingo");
-//-------------------------------------------------------------//
-alert("verano");
-alert("otoño");
-alert("invierno");
-alert("primavera");
-//-------------------------------------------------------------//
-document.write("Bienvenidos al curso de javascript")
-document.write("lunes<br>"); 
-document.write("martes<br>");
-document.write("miercoles<br>");
-document.write("jueves <br>");
-document.write("viernes<br>");
-document.write("sabado<br>");
-document.write("domingo<br>");
-//-------------------------------------------------------------//
-document.write("verano <br>");
-document.write("otoño<br>");
-document.write("invierno<br>");
-document.write("primavera<br>");
-//-------------------------------------------------------------//
-var num1;
-var num2;
-var sum;
-//-------------------------------------------------------------//
-num1=0;
-num2=0;
-sum1=0;
-num1=5;
-num2=7;
-//-------------------------------------------------------------//
-sum=num1+num2;
-alert("la suma es:"+sum);
-document.write("la suma es:"+sum+"<br>");
-//-------------------------------------------------------------//
-var n1;
-var n2;
-var n3;
-var n4;
-var prom;
+    <script type="text/Javascript">
+        //mostrar un mensaje con una bienvenida al curso
+        document.write("Bienvenidos al curso de Javascript<br>");
 
-n1=0;
-n2=0;
-n3=0;
-n4=0;
-prom=0;
+        //mostrando un mensaje con los dias de la semana
+        document.write("lunes<br>");
+        document.write("martes<br>");
+        document.write("miercoles<br>");
+        document.write("jueves<br>");
+        document.write("viernes<br>");
+        document.write("sabado<br>");
+        document.write("domingo<br>");
 
-n1=14;
-n2=17;
-n3=13;
-n4=19;
-prom=(n1+n2+n3+n4)/4;
+        //mustra un mensaje con las estaciones del año
+        document.write("verano<br>");
+        document.write("otoño<br>");
+        document.write("invierno<br>");
+        document.write("primavera<br>");
 
-alert("el promedio  final es:"+prom);
-document.write("el promedio  final es:"+prom+"<br>");
-</script>
+        variable
+        una variable te permite almacenar un valor en la memoria RAM, el cual puede cambiar durante la ejecucion del programa.
+        Tipo de Variables
+        Entero -> 5, 4, -7 -> 0
+        Real ->5.25, 6.19, -7.89 -> 0
+        Texto -> "hola", "hola" -> "" o ''
+        Logico--> false, true -> false
 
+        Sintanxis para declarar una variable
+        var nombre_variable=valor_inicial;
+
+        //identificar la cantidad de variables con las cuales se va a trabajar
+        Ejemplo 1: Desarrollar una aplicacion que permita calcular la suma de dos numeros
+        numero1, numero2, suma
+        var 1;
+        var 2;
+        var sum;
+        para el mismo Ejemplo
+        var x;
+        var y;
+        var z;
+
+        //declarando variables
+        var num1;
+        var num2;
+        var sum;
+        //inicializando las variables
+        num1=0;
+        num2=0;
+        sum=0
+        //valor a las variables
+        num1=5;
+        num2=7;
+        //realizar operaciones
+        sum=num1+num2;
+        //mostrar resultados
+        alert("la suma es: "+sum);
+        document.write("la suma es: "+sum+"<br>");
+
+        //declarando variables
+        var n1;
+        var n2;
+        var n3;
+        var n4;
+        var prom;
+        //inicializamos las variables
+        n1=14;
+        n2=17;
+        n3=13;
+        n4=19;
+        //realizar operaciones
+        prom=(n1+n2+n3+n4)/4;
+        //mostrando resultados
+        alert("El promedio finalñ es: "+prom);
+        document.write("El promedio final es: "+prom+"<br>");
+
+        //¿cuantas variables necesito?
+        //4
+        //¿que tipo de datos necesito?
+        //real
+        //¿como se llamaria las variables?
+        //sb, bon, des, sf
+        //¿cual seria la operacion?
+        //bon=sb*0.07;
+        //des=sb*0.05;
+        //sf=sb+bon-des;
+
+        //definiendo variables
+        var sb, bon, des, sf;
+        //inicializando variables
+        sb=0; bon=0; des=0; sf=0;
+        //asignando valores
+        sb=1000;
+        //realizando operaciones
+        bon=sb*0.07;
+        des=sb*0.05;
+        sf=sb+bon-des;
+        //mostrando resultados
+        alert("El sueldo basico es: "+sb);
+        alert("La bonificacion es: "+bon);
+        alert("el descuento es: "+des);
+        alert("el sueldo final es: "+sf);
+        document.write("El sueldo basico es: "+sb+"<br>");  
+        document.write("La bonificacion es: "+bon+" <br>");
+        document.write("El descuento es: "+des+" <br>");
+        document.write("El sueldo final es: "+sf+" <br>");
+
+        //¿cuantas variables necesito?
+        //5
+        //¿que tipo de datos necesito?
+        //real
+        //¿como se llamaria las variables?
+        //can, pres, sbt, igv, tot
+        //¿cual seria la operacion?
+        //sub=pre*can;
+        //igv=sbt*0.18;
+        //tot=sbt+igv;
+
+        //definiendo variables
+        var can, pres, sbt, igv, tot;
+        //inicializando variables
+        can=0; pres=0; sbt=0; igv=0; tot=0;
+        //asignando valores
+        can=10;
+        pre=125.80;
+        //realizando operaciones
+        sbt=pre*can;
+        igv=sbt*0.18;
+        tot=sbt+igv;
+        //mostrando resultados
+        alert("El subtotal es: "+sbt);
+        alert("El igv es: "+igv);
+        alert("El total es: "+tot);
+        document.write("El subtotal es: "+sbt+"<br>");
+        document.write("El igv es: "+igv+"<br>");
+        document.write("El total es: "+tot+"<br>");
+
+
+
+
+    </script>
 </head>
 <body>
-
+    
 </body>
 </html>
