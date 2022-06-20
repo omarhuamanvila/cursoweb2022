@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOBLE ejercicio 4</title>
+</head>
+<script type="text/javascript">
+    var nom=0, sex="", men="";
+
+nom=parseFloat(prompt("Ingrese su nombre: "));
+sex=prompt("Ingrese su sexo [h]Hombre o [m]Mujer");
+
+if(sex=="h"){
+    men="Buenas caballero";
+}else{
+    if(sex=="m"){
+        men="Buenas dama";
+    }else{
+        men="Selecione correctamente el sexo";
+    }
+}
+
+alert(men);
+</script>
+<body>
+</body>
+</html>

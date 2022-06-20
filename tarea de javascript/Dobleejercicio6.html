@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DobleEjercicio 6</title>
+    <script type="text/Javascript">
+        //¿Cuantas variables necesito?
+        //3
+        //¿Que tipo de datos necesito?
+        //entero, real
+        //¿Como se llamarian las variables?
+        //ml, min, tot;
+        //definiendo variables 
+        //ml=0, min=0, tot=0;
+        //Que valores voy a leer?
+        //ml
+        //condicion 
+        //if (dm<=5){
+        //tot= dm * 0.9;
+        //}else{
+        //mina=dm-5
+        //tot=4.5+(mina*0.20);
+        
+
+        //definiendo variables
+        var ml=0, mina=0, tot=0;
+
+        //capturando valores
+        ml=parseInt(prompt("Ingresa la cantidad de minutos en la llamada: "));
+        
+        //condicions
+        if (ml<=5){
+            tot= ml * 0.9;
+        }else{
+            mina=ml-5
+            tot=4.5+(mina*0.20);
+        }
+        
+        //mostrando resultados
+        document.write("Le cobrarán: "+tot+"<br>");
+        document.write("<hr>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

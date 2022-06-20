@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var pre=0, can=0, sbt=0, des=0, tip="", igv=0, tot=0;
+        
+        pre=parseFloat(prompt("Ingrese el precio:"));
+        can=parseInt(prompt("Ingresa la cantidad:"));
+        tip=prompt("Ingresa [f]Factura o [b]Boleta");
+        
+        sbt=pre*can
+        if(sbt>500){
+        des=sbt*0.02;
+        }else{
+        des=sbt*0.08;
+        }
+        if(tip=="f"){
+        igv=sbt*0.18;
+        }else{
+        igv=0;
+        }
+        tot=sbt-des+igv;
+        
+        document.write("El subtotal es: "+sbt+"<br>");
+        document.write("El descuento es: "+des+"<br>");
+        document.write("El igv es: "+igv+"<br>");
+        document.write("El total es: "+tot+"<br>");
+        document.write("<hr>");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

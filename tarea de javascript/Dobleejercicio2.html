@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOBLE ejercicio 2</title>
+    <script type="text/javascript">
+        var añna = 0,
+            añac = 0,
+            res = 0,
+            men = 0;
+        añac = parseFloat(prompt("Ingrese el año actual:"));
+        añna = parseFloat(prompt("Ingrese el año de nacimiento:"));
+
+        res = añac - añna;
+        men = añac - añna;
+
+        if (res > 30) {
+            res = "es adulto"
+        } else {
+            res = "es joven"
+        }
+
+        document.write("usted: " + res + "<br>");
+        document.write("usted tiene: " + men + "años" + "<br>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
